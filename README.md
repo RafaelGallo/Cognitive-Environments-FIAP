@@ -132,16 +132,6 @@ Exemplo de saída em JSON (`outputs/results_LUIZ.json`):
 }
 ```
 
-## 📈 Métricas
-
-O sistema gera automaticamente métricas de desempenho para avaliação do modelo:
-
-* **Acurácia** → Percentual de acertos.
-* **Precisão** → Quantidade de verdadeiros positivos sobre todos os positivos previstos.
-* **Recall** → Cobertura dos verdadeiros positivos.
-* **F1-Score** → Média harmônica entre precisão e recall.
-* **Matriz de Confusão** → Exportada em PNG em `outputs/confusion_matrix.png`.
-
 ## 🛠️ Tecnologias
 
 * **Python 3.10+**
