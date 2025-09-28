@@ -5,6 +5,9 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red.svg)
 ![Status](https://img.shields.io/badge/Status-Ativo-success.svg)
 
+<p align="center"> <img src="https://github.com/user-attachments/assets/87e831d8-843c-48c1-bee6-f8a65e7aeb12" width="320" alt="OCR GCP"/> <img src="https://github.com/user-attachments/assets/c147070b-0136-4fa6-96ca-0775c529fe3b" width="480" alt="Streamlit App"/> </p>
+
+
 ## 📌 Contexto
 
 Este projeto implementa um **pipeline de validação biométrica** para documentos (CNH, RG, comprovantes) utilizando:
