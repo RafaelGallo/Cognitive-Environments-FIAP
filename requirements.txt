@@ -1,0 +1,14 @@
+# Dependências principais
+opencv-python
+numpy
+pandas
+matplotlib
+
+# Google Cloud Vision =====
+google-cloud-vision
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+
+# ===== Outros =====
+pathlib
