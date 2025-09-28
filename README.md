@@ -18,10 +18,15 @@ Este projeto implementa um **pipeline de validação biométrica** para document
 * **Pandas / JSON** → Consolidação e exportação dos resultados.
 
 O sistema é capaz de:
+
 ✅ Extrair texto de documentos com OCR.
+
 ✅ Detectar e recortar o rosto da CNH.
+
 ✅ Comparar a selfie enviada com o rosto extraído.
+
 ✅ Validar se o nome no comprovante corresponde ao da CNH.
+
 ✅ Gerar relatórios em **JSON, CSV** e visualização em **Streamlit**.
 
 ## 📂 Estrutura do Projeto
