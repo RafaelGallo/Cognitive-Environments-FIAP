@@ -95,9 +95,28 @@ streamlit run app/streamlit_app.py
 
 ➡️ Interface interativa para upload de CNH, comprovante e selfie.
 
----
+### 📊 Resultados
 
-## 📊 Resultados
+Foram realizados testes com **CNH real + comprovante válido** e duas selfies distintas:
+
+### 🔹 Caso 1 – Selfie compatível (aceito)  
+- Face Match → Similaridade: **0.750** (mínimo aceito = 0.7)  
+- Nome → Igual nos documentos  
+
+📸 Resultado na interface:  
+![Caso válido](https://github.com/RafaelGallo/Cognitive-Environments-FIAP/blob/main/outputs/resultado_imagens_ocr/000.png?raw=true)
+
+### 🔹 Caso 2 – Selfie diferente (rejeitado)  
+- Face Match → Similaridade: **0.469** (abaixo do mínimo 0.7)  
+- Nome → Igual nos documentos  
+
+📸 Resultado na interface:  
+![Caso inválido](https://github.com/RafaelGallo/Cognitive-Environments-FIAP/blob/main/outputs/resultado_imagens_ocr/001.png?raw=true)
+
+### 🔹 Caso 3 – Cenário adicional  
+📸 Resultado na interface:  
+![Resultado adicional](https://github.com/RafaelGallo/Cognitive-Environments-FIAP/blob/main/outputs/resultado_imagens_ocr/002.png?raw=true)
+
 
 Exemplo de saída em JSON (`outputs/results_LUIZ.json`):
 
